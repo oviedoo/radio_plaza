@@ -1,4 +1,4 @@
-<section class="noticias__conteiner" id="noticias">
+<!-- <section class="noticias__conteiner" id="noticias">
 
     <div class="noticias">
         <img class="img__noticias" src="./src/assets/img/noticias/lucas-periodista.webp" alt="lucas-periodista" undownload />
@@ -432,4 +432,4 @@
         </div>
     </div>
 
-</section>
+</section> -->
