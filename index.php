@@ -44,21 +44,30 @@
         <?php
         include('./src/views/layouts/difusion.php');
         ?>
-        
+
         <!-- <div id="main">
-            <?php
+            
             include('./src/views/layouts/noticias.php');
-            ?>
+            
             <div class="conteiner">
                 <button id="verMas">Ver más</button>
             </div>
             <script src="./src/js/fuction.js"></script>
         </div>
-        <?php
+        
         include('./src/views/layouts/difusion2.php');
-        ?> -->
-    </main>
+    -->  
 
+        <!--DESCARGAR la app-->
+    <section class="desc__conten">
+        <h3 id="descargar" class="desc__text">Descarga nuestra App</h3>
+        <div class="descarga">
+            <a class="fa-brands fa-android" download="RadiolaPlazaAPP" href="./src/assets/docs/RadiolaPlazaAPP.apk"></a>
+        </div>
+    </section>
+    
+    </main>
+  
     <?php
     include('./src/views/layouts/footer.php');
     ?>
