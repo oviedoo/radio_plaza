@@ -57,6 +57,15 @@
         
         include('./src/views/layouts/difusion2.php');
     -->  
+
+        <!--DESCARGAR la app-->
+    <section class="desc__conten">
+        <h3 id="descargar" class="desc__text">Descarga nuestra App</h3>
+        <div class="descarga">
+            <a class="fa-brands fa-android" download="RadiolaPlazaAPP" href="./src/assets/docs/RadiolaPlazaAPP.apk"></a>
+        </div>
+    </section>
+    
     </main>
   
     <?php
