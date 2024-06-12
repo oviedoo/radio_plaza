@@ -44,21 +44,21 @@
         <?php
         include('./src/views/layouts/difusion.php');
         ?>
-        
+
         <!-- <div id="main">
-            <?php
+            
             include('./src/views/layouts/noticias.php');
-            ?>
+            
             <div class="conteiner">
                 <button id="verMas">Ver más</button>
             </div>
             <script src="./src/js/fuction.js"></script>
         </div>
-        <?php
+        
         include('./src/views/layouts/difusion2.php');
-        ?> -->
+    -->  
     </main>
-
+  
     <?php
     include('./src/views/layouts/footer.php');
     ?>
