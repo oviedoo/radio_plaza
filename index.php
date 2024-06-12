@@ -44,7 +44,8 @@
         <?php
         include('./src/views/layouts/difusion.php');
         ?>
-        <div id="main">
+        
+        <!-- <div id="main">
             <?php
             include('./src/views/layouts/noticias.php');
             ?>
@@ -55,7 +56,7 @@
         </div>
         <?php
         include('./src/views/layouts/difusion2.php');
-        ?>
+        ?> -->
     </main>
 
     <?php
