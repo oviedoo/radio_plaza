@@ -3,24 +3,19 @@
     <nav class="menu">
         <section class="menu__container">
             <div class="menu__logo">
-                <a href="./index.php"><img src="./src/assets/img/laplaza.webp" alt="Logo" title="Inicio" id="logo_bars" /></a>
+                <a href="./index.html"><img src="./src/assets/img/laplaza.webp" alt="Logo" title="Inicio" id="logo_bars" /></a>
             </div>
             <ul class="menu__links">
                 <li class="menu__item">
-                    <a href="./index.php" class="menu__link" alt="Inicio">Inicio</a>
+                    <a href="./index.html" class="menu__link" alt="Inicio">Inicio</a>
                 </li>
 
                 <li class="menu__item menu__item--show">
                     <a href="#" class="menu__link" alt="Sobre Nosotros">Sobre Nosotros<img src="./src/assets/img/svg/arrow.svg" class="menu__arrow" /></a>
                     <ul class="menu__nesting">
+
                         <li class="menu__inside">
-                            <a href="#main" class="menu__link menu__link--inside" alt="Noticias">Noticias</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="./podcast.php" target="_blank" class="menu__link menu__link--inside" alt="Podcasts">Podcasts</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="./s-n.php" target="_blank" class="menu__link menu__link--inside descarga__app" alt="Quienes somos">Quienes somos</a>
+                            <a href="./s-n.html" target="_blank" class="menu__link menu__link--inside descarga__app" alt="Quienes somos">Quienes somos</a>
                         </li>
                     </ul>
                 </li>
@@ -50,5 +45,4 @@
         </section>
     </nav>
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="./src/js/fuction.js"></script>
 </header>

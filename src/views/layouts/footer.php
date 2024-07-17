@@ -1,3 +1,4 @@
+
 	<!--FOOTER-->
 	<footer>
 		<section class="redes__cont">
@@ -7,7 +8,9 @@
 			</div>
 			<div id="copy">
 
-				<p class="text-copy">© <a id="yearAgo"> </a> Radio Comunitaria la Plaza Fm || Diseñado por <a href="https://www.linktr.ee/oviedo7" target="_blank" style="text-decoration: none; color: #d1d1d1">Jeremías Oviedo</a></p>
+				<p class="text-copy">© <a id="yearAgo"> </a> 
+                    Radio Comunitaria la Plaza Fm || Diseñado por <a class="ovienet" href="https://www.linktr.ee/oviedo7" target="_blank" >OvieNet</a>
+            </p>
 
 			</div>
 		</section>

@@ -32,12 +32,10 @@
 		?>
 	</header>
 
-	<?php
-	include('./src/views/layouts/reproductor.php');
-	?>
 	<main>
+	<section class="s-n_conteiner" >
 		<div class="sobre-nos__conteiner">
-			<div id="sobre-nos" class="sobre-nos">
+			<div id="sobre-nos" class="sobre-nos_texto">
 				<p>Somos una radio comunitaria perteneciente a la <b>ONG</b> Camino Real de Chañar e integrante de
 					<b>FARCO </b>(foro argentino de radios comunitarias) que nace por la iniciativa de un grupo de
 					amigos vinculados a la actividad cultural, social y deportiva de San Francisco del Chañar para
@@ -45,7 +43,7 @@
 					valores de la libertad y la participación de todos y para todos en nuestro pueblo y además poder
 					transmitir a todos los rincones del país la identidad de esta Córdoba Norteña, con sus riqueza
 					su belleza y también su realidades y problemáticas. Somos <b>Radio comunitaria La Plaza
-						91.5</b>, “un lugar para todos”
+						91.5</b>, “un lugar para todos”.
 				</p>
 			</div>
 		</div>
@@ -54,7 +52,7 @@
 			<div class="card">
 				<img src="./src/assets/img/s-n/mario-aventuroso.png" class="card-img" alt="mario-aventuroso">
 				<div class="card-body">
-					<p><a href="https://www.facebook.com/mario.aventuroso.9?locale=es_LA" class="card-body-link" style="text-decoration: none; color: #000;"><b>Mario Aventuroso</b></a>
+					<p><a href="https://www.facebook.com/mario.aventuroso.9?locale=es_LA" target="_blank" class="card-body-link" style="text-decoration: none; color: #000;"><b>Mario Aventuroso</b></a>
 						<br />Fundador de la Radio
 					</p>
 				</div>
@@ -63,16 +61,13 @@
 			<div class="card">
 				<img src="./src/assets/img/s-n/lucas-cornejo.png" class="card-img" alt="lucas-cornejo">
 				<div class="card-body">
-					<p><a href="https://www.facebook.com/lucas.cornejo.31?locale=es_LA" class="card-body-link" style="text-decoration: none; color: #000;"><b>Lucas Cornejo</b></a>
-						<br />Locutor de la Radio
+					<p><a href="https://www.facebook.com/lucas.cornejo.31?locale=es_LA" target="_blank" class="card-body-link" style="text-decoration: none; color: #000;"><b>Lucas Cornejo</b></a>
+						<br />Locutor 
 					</p>
 				</div>
 			</div>
 		</div>
-
-		<?php
-		include('./src/views/layouts/difusion2.php');
-		?>
+	</section>
 	</main>
 	<footer>
 		<?php
