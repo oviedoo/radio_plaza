@@ -170,266 +170,63 @@ h5 {
     width: 36px;
 }
 
-/*FOTO*/
-
-.fondo {
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: var(--color-hueso);
-    text-align: center;
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url(../assets/img/catedral-sfc.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-.titulo {
-    letter-spacing: 2px;
-    padding-top: 10px;
-}
-
-.eslogan {
-    letter-spacing: 1px;
-    font-family: 'Roboto', sans-serif;
-    padding-bottom: 15px;
-}
-
-.fondo__img {
-    background-color: #fff;
-    border: solid 3px var(--secundario);
-    border-radius: 50%;
-    padding: 12px;
-}
-
-.fondo img {
-    width: 140px;
-    height: 140px;
-
-}
-
-.audio-conteiner {
-    padding-top: 15px;
-
-}
-
-.fondo .sms {
-    padding-top: 10px;
-}
-
-.fa-whatsapp {
-    margin-top: 10px;
-    font-size: 20px;
-    padding-bottom: 20px;
-}
-
-/*MAIN*/
-main {
-    overflow: hidden;
-    padding: 20px 0;
-    background-color: var(--color-hueso);
-    color: #000;
-
-}
-
-/*SLIDER PUBLICIDADES*/
-.difusiones__conteiner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
-    gap: 5px;
-}
-
-.slider-frame {
-    width: 350px;
-    height: 200px;
-    overflow: hidden;
-}
-
-.slider-frame ul {
-    display: flex;
-    padding: 0;
-    width: 400%;
-    animation: slide 20s infinite alternate ease-in-out;
-}
-
-.slider-frame li {
-    width: 100%;
-    list-style: none;
-}
-
-.slider-frame img {
-    border-radius: 2px;
-    width: 100%;
-
-}
-
-@keyframes slide {
-    0% {
-        margin-left: 0;
+/* MAIN */
+main{
+    height: 85vh;
+    
+    .fondo {
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: var(--color-hueso);
+        text-align: center;
+        background-image: linear-gradient(0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url(../assets/img/catedral-sfc.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+    }
+    
+    .titulo {
+        letter-spacing: 2px;
+    }
+    
+    .eslogan {
+        letter-spacing: 1px;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+    
+    .fondo__img {
+        margin: 35px 0;
+        height: 160px;
+        width: 160px;
+        background-color: #fff;
+        border: solid 3px var(--secundario);
+        border-radius: 50%;
+        padding: 12px;
+    }
+    
+     img {
+        width: 100%;
+        height: 100%;
+    
     }
 
-    20% {
-        margin-left: 0;
+   .sms {
+        margin-top: 10px;
     }
-
-    25% {
-        margin-left: -100%;
+    
+    .fa-whatsapp {
+        margin-top: 7px;
+        font-size: 20px;
+        
     }
-
-    45% {
-        margin-left: -100%;
-    }
-
-    50% {
-        margin-left: -200%;
-    }
-
-    70% {
-        margin-left: -200%;
-    }
-
-    75% {
-        margin-left: -300%;
-    }
-
-    100% {
-        margin-left: -300%;
-    }
-}
-
-
-/*NOTICIAS*/
-.audio__notas {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-}
-
-
-.noticias__conteiner {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 30px 0px;
-}
-
-.noticias {
-    margin: 10px 0;
-    display: flex;
-    flex-direction: column;
-    max-width: 350px;
-}
-
-.img__noticias {
-    border-radius: 2px;
-    filter: brightness(110%);
-    margin-bottom: 5px;
-    object-fit: cover start;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
-    width: 350px;
-    height: 200px;
-}
-
-.noticias-contenido p {
-    font-size: 13px;
-    color: var(--color-text);
-}
-
-.noticias-contenido h3:hover {
-    color: var(--primario);
-    cursor: pointer;
-}
-
-.noticias-contenido h5 {
-    color: #54595f;
-
-}
-
-.medios__conteiner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-
-}
-
-.medios img {
-    margin: 0px 3px 4px 3px;
-    width: 50px;
-    height: auto;
-}
-
-/*BOTON VER MÁS*/
-.noticias:not(:nth-child(-n+8)) {
-    display: none;
-}
-
-.conteiner {
-    display: flex;
-    justify-content: flex-end;
-    margin: 10px
-}
-
-#verMas {
-    color: #fff;
-    background-color: var(--primario);
-    padding: 3px;
-    border-radius: 5px;
-    border-color: var(--primario);
-}
-
-#verMas:hover {
-    transition: 2s;
-    background-color: var(--primario);
-    cursor: pointer;
-}
-
-/*SOBRE NOSOTROS*/
-.sobre-nos__conteiner {
-    margin: 20px 0;
-}
-
-.sobre-nos {
-    padding: 5px 0;
-    border-top: 2px solid #ddd;
-    border-bottom: 2px solid #ddd;
-    font-size: 15px;
-    color: #000;
-}
-
-/*DESCARGA APP*/
-.desc__conten {
-    display: none;
-}
-
-.descarga a {
-    color: #419D51;
-    font-size: 27px;
-    text-decoration: none
-}
-
-/*PUBLITA CON NOSOTROS*/
-.publicita__nosotros {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-}
-
-.publicita__nosotros img {
-    object-fit: cover;
-    width: 900px;
-    height: 145px;
-    border-radius: 2px;
 }
 
 /*FOOTER*/
@@ -438,109 +235,52 @@ footer {
     width: 100%;
     overflow: hidden;
     background-color: var(--secundario);
-    padding-top: 15px;
 }
 
 .redes {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 15px;
-}
+    margin: 18px 0px 12px 0px;
+    gap: 15px;
 
-.redes a {
-    padding-right: 15px;
-    text-decoration: none;
-    color: var(--color-gris2);
-    font-size: 20px;
-}
+    a {
+        text-decoration: none;
+        color: var(--color-gris2);
+        font-size: 20px;
+    }
 
-.redes a:hover {
-    color: var(--primario);
-    transition: 2s, 1s;
+    a:hover {
+        color: var(--primario);
+        transition: 2s, 1s;
+    }
+    
 }
-
 #copy {
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--color-gris);
     font-family: 'Sen', sans-serif;
-    padding-bottom: 5px;
-}
+    margin-bottom: 5px;
 
-.text-copy {
-    font-size: 11px;
-}
-
-/*desktop*/
-@media screen,
-(min-width:2560) {
-
-    .fondo {
-        height: 68%;
-    }
-
-
-
-    /*MAIN*/
-    main {
-        padding: 20px 175px;
+    .text-copy {
+        font-size: 12px;
+    
+        .ovienet{
+            
+            text-decoration: none;
+            color: #0088D4;
+        }
+    
     }
 }
 
 
-@media screen and (min-width:1440px) and (max-width:2559px) {
 
-    /*MAIN*/
-    main {
-        padding: 20px 175px;
-    }
-}
-
-@media screen and (min-width:1024px) and (max-width:1439px) {
-
-    /*MAIN*/
-    main {
-        padding: 20px 40px;
-    }
-
-    /*noticias*/
-    .noticias {
-        width: 300px;
-    }
-
-    .img__noticias {
-        width: 100%;
-        height: 180px;
-    }
-}
 
 /*DISPOSITIVOS MOVILES*/
 @media screen and (min-width:320px) AND (max-width:1023px) {
-    h1 {
-        font-size: 30px;
-    }
-
-    h2 {
-        font-size: 27px;
-    }
-
-    h3 {
-        font-size: 15px;
-    }
-
-    h4 {
-        font-size: 13px;
-    }
-
-    h5 {
-        font-size: 10px;
-    }
-
-    p {
-        font-size: 12px;
-    }
 
     .menu {
         position: fixed;
@@ -612,224 +352,97 @@ footer {
         border-left: solid 1px #fff;
     }
 
-    /*FOTO*/
-    .fondo {
-        padding-top: 71px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .fondo img {
-        width: 130px;
-        height: 130px;
-    }
-
-    .fa-whatsapp {
-        font-size: 20px;
-    }
-
-    /*MAIN*/
-    main {
-        padding: 20px;
-    }
-
-    /*NOTICIAS*/
-    .audio__notas audio {
-        width: 240px;
-    }
-
-    .noticias {
-        display: flex;
-        width: 220px;
-        height: auto;
-    }
-
-    .img__noticias {
-        width: 100%;
-        height: 121px;
-    }
-
-    /*SOBRE NOSOTROS*/
-    .sobre-nos__conteiner {
-        padding-top: 71px;
-    }
-
-    /*DESCARGAR APP*/
-    .desc__conten {
-        display: contents;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
-    }
-
-    .descarga {
-        padding-top: 8px;
-        padding-bottom: 10px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .descarga a {
-        font-size: 23px;
-    }
-
-    /*Publicita nosotros*/
-    .publicita__nosotros img {
-
-        width: 100%;
-        height: auto;
-
-    }
-
-    /*FOOTER*/
-    .redes a {
-        text-decoration: none;
-    }
-
-
 }
 
 @media screen and (min-width:320px) AND (max-width:767px) {
-
     h1 {
-        font-size: 27px;
+        font-size: 25px;
     }
-
+    
     h2 {
-        font-size: 24px;
+        font-size: 20px;
     }
-
+    
     h3 {
-        font-size: 14px;
+        font-size: 13px;
     }
-
+    
     h4 {
-        font-size: 11.8px
-    }
-
-    p {
         font-size: 13px;
     }
 
-    /*FONDO*/
-    .fondo {
-        background-image: linear-gradient(0deg,
-                rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url(../assets/img/catedral-sfc.webp);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        background-position: center center;
+ 
+    /* MAIN */
+    main{
+        .titulo {
+            letter-spacing: 1px;
+        }
     }
+  /*FOOTER*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 15%;
+}
 
-    .fondo img {
-        width: 110px;
-        height: 110px;
-    }
+.redes {
+    margin: 10px 0px 10px 0px;
+}
 
-    /*MAIN*/
-    main {
-        padding: 10px;
-    }
-
-    /*PUBLICIDADES*/
-    .difusiones__conteiner {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 10px;
-        gap: 2px;
-    }
-
-    .slider-frame {
-        width: 50%;
-        height: auto;
-
-    }
-
-    /*NOTICIAS*/
-    .noticias__conteiner {
-        justify-content: center;
-        align-items: center;
-    }
-
-    .audio__notas audio {
-        width: 290px;
-    }
-
-    .noticias {
-        margin: 10px 0px;
-        display: flex;
-        width: 355px;
-    }
-
-    .img__noticias {
-        width: 100%;
-        height: 192px;
-    }
-
-    .noticias-contenido p {
-        font-size: 11px;
-    }
-
-    .sobre-nos__conteiner {
-
-        padding-top: 71px;
-        margin: 10px 20px;
-    }
-
-    /*FOOTER*/
+#copy {
+    margin-bottom: 0px;
 
     .text-copy {
-        text-align: center;
-        font-size: 9.1px;
+        font-size: 12px;
+    
+    }
     }
 }
 
-
 @media screen and (min-width:320px) and (max-width:374px) {
     h1 {
-        font-size: 22px;
-    }
-
-    h2 {
         font-size: 21px;
     }
 
+    h2 {
+        font-size: 20px;
+    }
+
     h3 {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     h4 {
-        font-size: 10px
+        font-size: 13px
     }
 
-    h5 {
-        font-size: 7px;
-        font-weight: 1px
-    }
+    /* MAIN */
+main{
 
+    .audio_reprocutor{
+        width: 270px;
+    }
+    .sms {
+        margin-top: 15px;
+    }
+    
     .fa-whatsapp {
-        font-size: 18px;
+        margin-top: 9px;
     }
-
-    .noticias {
-        display: flex;
-        width: 300px;
-    }
-
-    .img__noticias {
-        width: 100%;
-        height: 192px;
-    }
-
+}
     /*FOOTER*/
+.redes {
+    margin: 10px 0px 10px 0px;
+}
 
+#copy {
+    gap: 12px;
 
     .text-copy {
-        font-size: 8.5px;
+        font-size: 10px;
+    
+    }
     }
 }
